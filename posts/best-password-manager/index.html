@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Why password-store is the best password manager - Codepenguin</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:description" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="description" content="" />
+	<meta name="description" content="" />
+
+	<meta property="og:title" content="Why password-store is the best password manager | Codepenguin" />
+	<meta name="twitter:title" content="Why password-store is the best password manager | Codepenguin" />
+
+	<meta property="og:image" content=""/>
+	<meta itemprop="name" content="Why password-store is the best password manager | Codepenguin" />
+	<meta name="application-name" content="Why password-store is the best password manager | Codepenguin" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:title" content="Why password-store is the best password manager" />
+<meta property="og:description" content="Pass is the best password manager In my never-ending quest in improving the various day-to-day tools that I use, there&rsquo;s one particular tool that I have never found the need to replace. Strangely enough, it&rsquo;s also the tool I probably use the most. I&rsquo;m talking about password-store
+Password-store (or pass) is one of the best (if not the best) password managers out there. If you have never heard of it, here&rsquo;s a quick intro for you." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://c0depenguin.github.io/posts/best-password-manager/" />
+<meta property="article:published_time" content="2020-07-25T23:44:10+02:00" />
+<meta property="article:modified_time" content="2020-07-25T23:44:10+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why password-store is the best password manager"/>
+<meta name="twitter:description" content="Pass is the best password manager In my never-ending quest in improving the various day-to-day tools that I use, there&rsquo;s one particular tool that I have never found the need to replace. Strangely enough, it&rsquo;s also the tool I probably use the most. I&rsquo;m talking about password-store
+Password-store (or pass) is one of the best (if not the best) password managers out there. If you have never heard of it, here&rsquo;s a quick intro for you."/>
+
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://c0depenguin.github.io/css/main.css" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://c0depenguin.github.io/">Codepenguin</a>
+	</div>
+	<nav>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Why password-store is the best password manager</h1>
+			<div class="meta">Posted on Jul 25, 2020</div>
+		</div>
+		
+
+		<section class="body">
+			<h1 id="pass-is-the-best-password-manager">Pass is the best password manager</h1>
+<p>In my never-ending quest in improving the various day-to-day tools that I use,
+there&rsquo;s one particular tool that I have never found the need to replace.
+Strangely enough, it&rsquo;s also the tool I probably use the most. I&rsquo;m talking about
+<a href="https://github.com/rupa/password-store">password-store</a></p>
+<p>Password-store (or <em>pass</em>) is one of the best (if not <em>the</em> best) password
+managers out there. If you have never heard of it, here&rsquo;s a quick intro for you.</p>
+<p><em>pass</em> is a simple but powerful password manager that fully adheres to the UNIX
+philosophy of doing one thing and doing it well. It&rsquo;s mainly a CLI tool but it
+also has several UI clients available as well.</p>
+<p>Pass works by saving individual user passwords as GPG-encrypted files inside
+folders named as the site they belong to. So for example, if you have an account
+named <code>foo</code> for a site <code>bar</code> the folder structure would be:</p>
+<pre><code>~/.password-store/
+    bar/
+        foo.gpg
+</code></pre>
+<p>What&rsquo;s great is that this folder can then be version controlled (usually with
+git) and there&rsquo;s even built-in integration with git. So you just add a remote
+git repository when setting up pass for the first time and then every time you
+want to back up your passwords you simply run <code>pass git push</code>. This way you have
+full control over your passwords and you avoid relying on third-party services
+for which you have no absolute safety on how your passwords are stored or
+whether they will keep staying in business.</p>
+<p><em>pass</em> also generates new passwords for you with varying degrees of strength and
+length. So for example if you want to generate a 64 character long password for
+the aforementioned <em>bar</em> website you simply run <code>pass generate bar/foo 64</code>. To
+copy that password to your clipboard you run <code>pass -c bar/foo</code>. That&rsquo;s it. Those
+are probably the only commands you need to use with <em>pass</em></p>
+<p>There is also a free and open source <em>pass</em> <a href="https://f-droid.org/packages/com.zeapo.pwdstore/">client for
+Android</a> that can be used
+along
+<a href="https://f-droid.org/packages/org.sufficientlysecure.keychain/">OpenKeychain</a>
+for sharing and managing your private PGP key(s).</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr>⚡️
+	2020  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+</div>
+    </body>
+</html>

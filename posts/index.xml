@@ -12,12 +12,42 @@
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://c0depenguin.github.io/posts/my-first-post/</link>
+      <title>Why password-store is the best password manager</title>
+      <link>https://c0depenguin.github.io/posts/best-password-manager/</link>
       <pubDate>Sat, 25 Jul 2020 23:44:10 +0200</pubDate>
       
-      <guid>https://c0depenguin.github.io/posts/my-first-post/</guid>
-      <description>This is my first post </description>
+      <guid>https://c0depenguin.github.io/posts/best-password-manager/</guid>
+      <description>Pass is the best password manager In my never-ending quest in improving the various day-to-day tools that I use, there&amp;rsquo;s one particular tool that I have never found the need to replace. Strangely enough, it&amp;rsquo;s also the tool I probably use the most. I&amp;rsquo;m talking about password-store
+Password-store (or pass) is one of the best (if not the best) password managers out there. If you have never heard of it, here&amp;rsquo;s a quick intro for you.</description>
+    </item>
+    
+    <item>
+      <title>Videogames as art</title>
+      <link>https://c0depenguin.github.io/posts/videogames-art/</link>
+      <pubDate>Thu, 15 Aug 2019 23:44:10 +0200</pubDate>
+      
+      <guid>https://c0depenguin.github.io/posts/videogames-art/</guid>
+      <description>Videogames as art While spending some time on Youtube, watching your run-of-the-mill time-wasting videos, I came across a video that listed the &amp;ldquo;Game of the Year&amp;rdquo; winners from 1980 through 2018. So I clicked on it with the intent of seeing how many of them I could guess.
+The guessing game soon turned into a trip down memory lane. Countless hours spent amidst the vivid colors of the world of Super Mario, the grey wastelands of Fallout, and the majestic scenery of The Witcher.</description>
+    </item>
+    
+    <item>
+      <title>The pain of finishing projects</title>
+      <link>https://c0depenguin.github.io/posts/finishing-projects/</link>
+      <pubDate>Thu, 25 Jul 2019 23:44:10 +0200</pubDate>
+      
+      <guid>https://c0depenguin.github.io/posts/finishing-projects/</guid>
+      <description>The pain of finishing work While lots of people find it arduous to jump in and start a project, I&amp;rsquo;m (usually) not one of them. I have my moments where it&amp;rsquo;s hard to get up and just do something without falling in an endless void of procrastination. But most of the time it&amp;rsquo;s easy to start a project and be enthusiastic about it. Sometimes I work for days and days on something until one day I don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Your first pull request</title>
+      <link>https://c0depenguin.github.io/posts/first-pull-request/</link>
+      <pubDate>Wed, 05 Sep 2018 23:44:10 +0200</pubDate>
+      
+      <guid>https://c0depenguin.github.io/posts/first-pull-request/</guid>
+      <description>I have seen a lot of people online that want tips for anything from where to find projects on which to contribute to how to find something to fix on those projects in order to make a pull request. I won&amp;rsquo;t lie, I have been in the same exact situation before and making the jump is not easy at all.
+Find projects you are interested in Honestly, I think this is the most important part of contributing to FOSS projects.</description>
     </item>
     
   </channel>
